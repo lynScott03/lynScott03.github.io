@@ -1,18 +1,110 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>SET08101 - Web Technologies</title>
+		<title>SET08101 - 40539978</title>
+        <script src="baseColorPicker.js"></script>
+        <script src="fontColorPicker.js"></script>
 	</head>
-	<body>
-		<h1>Customisation</h1>
-		<a href=../index.html>Home</a>
-		<a href=../Week6/flex1.html>Dice Tray</a>
+
+    <style>
+		body {
+			font-size: Arial, sans-serif;
+			text-align: left;
+			margin-top: 50px;
+			margin-left: 100px;
+            margin-right: 100px;
+			background-color: #051205;
+            color: whitesmoke;
+        
+		}
 		
-        <form action="/actionPage.php">
-            <label for="baseDiceColour">Dice base colour:</label>
-            <input type="colour" id="baseDiceColour" name="baseDiceColour" value="#000000">
-            <p><input type="submit" value="Submit"</p>
-        </form>
+		h1 {
+			color: whitesmoke;
+		}
+
+		button {
+			padding: 10px 20px;
+			font-size: 16px;
+			background-color: #232B23;
+			color: whitesmoke;
+			border: none;
+			cursor: pointer;
+            margin-bottom: 20px;
+		}
+
+		button:hover {
+			border: white;
+			border-radius: 10px;
+		}
+
+	</style>
+
+	<body>
+        <div>
+            <h1>Customisation</h1>
+            <a href = "../index.html"><button onclick="href=index.html">Home</button></a>
+			<a href = "../Week6/diceTray.html"><button onclink="href=Week6/diceTray.html">Dice Tray</button></a>
+        </div>
+
+		
+        <div>
+            <label for="base-dice-color">Dice base colour:</label>
+            <input type="color" value="#ff0000" id="base-dice-color" />
+            <button onclick="baseColorSave()">Save</button>
+        </div>
+
+        <div>
+            <label for="font-dice-color">Dice font colour:</label>
+            <input type="color" value="#ff0000" id="font-dice-color">
+            <button onclick="fontColorSave()">Save</button>
+        </div>
+
+        <label for="dice-workspace-selection">Tabletop:</label>
+        <select id="dice-workspace-selection" name="dice-workspace-selection">
+            <option value="darkWood-tabletop">Dark wood tabletop</option>
+            <option value="lightWood-tabletop">Light wood tabletop</option>
+            <option value="lightForest">Light forest background</option>
+            <option value="forestPath">Forest path background</option>
+            <option value="forestRiver">Forest river background</option>
+            <option value="mountainLake">Mountain lake background</option>
+            <option value="mountainClouds">Mountain in the clouds background</option>
+            <option value="villageAlley">Village alley background</option>
+            <option value="villageSunset">Village at sunset background</option>
+            <option value="wildflowerField">Wildflower field background</option>
+            <option value="fieldRockface">Field by a mountain background</option>
+            <option value="fantasyMap1">Fantasy map background 1</option>
+            <option value="fantasyMap2">Fantasy map background 2</option>
+            <option value="fantasyStaircase">Fantasy staircase background</option>
+            <option value="fantasyCastle">Fantasy castle background</option>
+            <option value="fantasyDragon">Fantasy dragon in flight background</option>
+        </select>
+        <button onclick="diceWorkspaceSelectSave()">Save</button>
+
+        <!--<p>test</p>-->
+
+        <script>
+            function baseColorSave() {
+                var baseDiceColor = document.getElementById("base-dice-color").value;
+                localStorage.setItem("baseColorSaved", baseDiceColor);
+                alert("Color saved successfully!");
+            }
+        </script>
+       
+       <script>
+        function fontColorSave() {
+            var fontDiceColor = document.getElementById("font-dice-color").value;
+            localStorage.setItem("fontColorSaved", fontDiceColor);
+            alert("Color saved successfully!");
+        }
+        </script>
+
+        <script>
+            function diceWorkspaceSelectSave() {
+                var diceWorkspaceSelection = document.getElementById("dice-workspace-selection").value;
+                localStorage.setItem("diceWorkspaceSelectSaved", diceWorkspaceSelection);
+                alert("Background saved successfully!");
+            }
+        </script>
 	
     </body>
 </html>
