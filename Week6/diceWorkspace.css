@@ -1,0 +1,259 @@
+.flex-container {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+    position: relative;
+
+
+}
+
+.darkWood-tabletop {
+	background-image: url('background_images/dark_wood.jpeg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.lightWood-tabletop {
+	background-image: url('background_images/light_wood.jpeg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.lightForest {
+	background-image: url('background_images/light_forest.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.forestPath {
+	background-image: url('background_images/forest_path.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.forestRiver {
+	background-image: url('background_images/forest_river.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.mountainLake {
+	background-image: url('background_images/mountain_lake.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.mountainClouds {
+	background-image: url('background_images/mountain_clouds.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.villageAlley {
+	background-image: url('background_images/village_alley.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.villageSunset {
+	background-image: url('background_images/village_sunset.jpeg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.wildFlowerField {
+	background-image: url('background_images/wildflower_field.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.fieldRockFace {
+	background-image: url('background_images/field_rockface.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.fantasyMap1 {
+	background-image: url('background_images/fantasy_map_1.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.fantasyMap2 {
+	background-image: url('background_images/fantasy_map_2.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.fantasyStaircase {
+	background-image: url('background_images/fantasy_staircase.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.fantasyCastle {
+	background-image: url('background_images/fantasy_castle.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+.fantasyDragon {
+	background-image: url('background_images/fantasy_dragon_flight.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 448px;
+	background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: center;
+    left: center;
+
+}
+
+
+.calculation-tab {
+    background-color: rgba(33, 23, 11, 0.75);
+    width: 325px;
+    height: 428px;
+    background-position: center;
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 1.25;
+    display: inline-block;
+    position: absolute;
+
+    top: 22.78%;
+    left: 53.13%;
+    
+    padding: 10px;
+    z-index: 1;
+    
+}

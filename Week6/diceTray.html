@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SET08101 - 40539978</title>
+        <link rel="stylesheet" href="diceWorkspace.css">
+        <script src="numGenerator.js"></script>
+        <script src="../Week2/fontColorPicker.js"></script>
+        <a href = "../Week2/colourPicker.html"></a>
+	</head>
+
+	<style>
+		body {
+			font-size: Arial, sans-serif;
+			text-align: left;
+			margin-top: 50px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: #051205;
+		}
+		
+		h1 {
+			color: whitesmoke;
+		}
+
+		button {
+			padding: 10px 20px;
+			font-size: 16px;
+			background-color: #232B23;
+			color: whitesmoke;
+			border: none;
+			cursor: pointer;
+			margin-bottom: 20px;
+		}
+
+		button:hover {
+			border: white;
+			border-radius: 10px;
+		}
+
+        h3 {
+            font-weight: lighter;
+        }
+
+        h4 {
+            font-size: medium;
+            font-weight: lighter;
+        }
+
+	</style>
+
+	<body>
+        
+		<div>
+			<h1>Dice Tray</h1>
+            <a href = "../index.html"><button onclick="href=index.html">Home</button></a>
+			<a href = "../Week2/colourPicker.html"><button onclick="href=Week2/colourPicker.html">Customisation</button></a>
+		</div>
+	
+        <div class="container">
+	        <!--<div id="savedDiceWorkspace"></div>-->
+            <div class="villageAlley"></div>
+            <div class="calculation-tab">
+                1d4: <h4 id="d4"></h4>
+                1d6: <h4 id="d6"></h4>
+                1d8: <h4 id="d8"></h4>
+                1d10: <h4 id="d10"></h4>
+                1d10%: <h4 id="d10p"></h4>
+                1d12: <h4 id="d12"></h4>
+                1d20: <h4 id="d20"></h4>
+
+                Total: 
+                <br><br>
+                Modification: + 
+                <br>
+                <h2>Total:</h2>
+            </div>
+        </div>
+
+        <!--<script>
+            var savedBaseColor = localStorage.getItem("baseColorSaved");
+            if (savedBaseColor) {
+                document.getElementById("h3").style.color = savedBaseColor;
+            }
+        </script>-->
+
+        <!--<script>
+            var savedFontColor = localStorage.getItem("fontColorSaved");
+            if (savedFontColor) {
+                document.getElementById("h4").style.color = savedFontColor;
+            }
+        </script>-->
+
+        <!--<script>
+            var savedDiceWorkspace = localStorage.getItem("diceWorkspaceSelectSaved");
+            if (savedDiceWorkspace = "darkWood-tabletop") {
+                document.getElementById("container") = "darkWood-tabletop";
+                <div class = "darkWood-tabletop"></div>
+            } else if (savedDiceWorkspace = "lightWood-tabletop") {
+                document.getElementById("container") = "lightWood-tabletop";
+                <div class = "lightWood-tabletop"></div>
+            } else if (savedDiceWorkspace = "lightForest") {
+                document.getElementById("container") = "lightForest";
+                <div class = "lightForest"></div>
+            } else if (savedDiceWorkspace = "forestPath") {
+                document.getElementById("container") = "forestPath";
+                <div class = "forestPath"></div>
+            } else if (savedDiceWorkspace = "forestRiver") {
+                document.getElementById("container") = "forestRiver";
+                <div class = "forestRiver"></div>
+            } else if (savedDiceWorkspace = "mountainLake") {
+                document.getElementById("container") = "mountainLake";
+                <div class = "mountainLake"></div>
+            } else if (savedDiceWorkspace = "mountainClouds") {
+                document.getElementById("container") = "mountainClouds";
+                <div class = "mountainClouds"></div>
+            } else if (savedDiceWorkspace = "villageAlley") {
+                document.getElementById("container") = "villageAlley";
+                <div class = "villageAlley"></div>
+            } else if (savedDiceWorkspace = "villageSunset") {
+                document.getElementById("container") = "villageSunset";
+                <div class = "villageSunset"></div>
+            } else if (savedDiceWorkspace = "wildflowerField") {
+                document.getElementById("container") = "wildflowerField";
+                <div class = "wildflowerField"></div>
+            } else if (savedDiceWorkspace = "fieldRockface") {
+                document.getElementById("container") = "fieldRockface";
+                <div class = "fieldRockface"></div>
+            } else if (savedDiceWorkspace = "fantasyMap1") {
+                document.getElementById("container") = "fantasyMap1";
+                <div class = "fantasyMap1"></div>
+            } else if (savedDiceWorkspace = "fantasyMap2") {
+                document.getElementById("container") = "fantasyMap2";
+                <div class = "fantasyMap2"></div>
+            } else if (savedDiceWorkspace = "fantasyStaircase") {
+                document.getElementById("container") = "fantasyStaircase";
+                <div class = "fantasyStaircase"></div>
+            } else if (savedDiceWorkspace = "fantasyCastle") {
+                document.getElementById("container") = "fantasyCastle";
+                <div class = "fantasyCastle"></div>
+            } else if (savedDiceWorkspace = "fantasyDragon") {
+                document.getElementById("container") = "fantasyDragon";
+                <div class = "fantasyDragon"></div>
+            } else {
+                document.getElementById("container") = "darkWood-tabletop";
+                <div class = "darkWood-tabletop"></div>
+            }
+        </script>-->
+
+	</body>
+</html>
